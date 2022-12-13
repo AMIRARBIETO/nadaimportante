@@ -13,7 +13,10 @@ app.get('/', (req, res) => {
     res.sendFile('/home/ubuntu/Colectico-Sur-Real/H221S2_01/index.html')});
 
 app.get('/', (req, res) => {
-    res.sendFile('/home/ubuntu/Colectico-Sur-Real/H221S2_01/Actividades.html')});
+    res.sendFile('/home/ubuntu/Colectico-Sur-Real/H221S2_01/css/styles.css')});
+
+app.get('/', (req, res) => {
+    res.sendFile('/home/ubuntu/Colectico-Sur-Real/H221S2_01/js/main.js')});
 
 app.use(express.json());
 
