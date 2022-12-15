@@ -63,6 +63,10 @@ function slidefun(n) {
 }
 
 /* Hypervinculos */ 
+function Ingresar(){
+    location.href="../html/Colectivo_Sur_Real.html";
+}
+
 function Gmail(){
     location.href="https://www.google.com/intl/es-419/gmail/about/";
 }
@@ -80,7 +84,7 @@ function Contactenos(){
 }
 
 function Colectivo_Sur_Real(){
-    location.href="../index.html";
+    location.href="../html/Colectivo_Sur_Real.html";
 }
 
 function Actividades(){
@@ -97,6 +101,10 @@ function Noticias(){
 
 function Libros(){
     location.href="../html/Libros.html";
+}
+
+function Logeo(){
+    location.href="../html/Logeo.html";
 }
 
 /* Proximos eventos */
